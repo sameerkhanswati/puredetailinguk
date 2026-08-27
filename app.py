@@ -962,6 +962,42 @@ st.markdown(
             transition-duration:.01ms !important;
         }
     }
+    /* ============================================================
+   STREAMLIT CLOUD — DATE PICKER FIX
+   ============================================================ */
+
+    div[data-baseweb="calendar"] {
+        background: #191919 !important;
+        color: #FFFFFF !important;
+        border: 1px solid #4A4A4A !important;
+    }
+
+    div[data-baseweb="calendar"] * {
+        color: #FFFFFF !important;
+    }
+
+    div[data-baseweb="calendar"] button {
+        background: #191919 !important;
+        color: #FFFFFF !important;
+    }
+
+    div[data-baseweb="calendar"] button:hover {
+        background: #2B2B2B !important;
+        color: #D7B66A !important;
+    }
+
+    div[data-baseweb="calendar"] button[aria-selected="true"] {
+        background: #D7B66A !important;
+        color: #171717 !important;
+    }
+
+    div[data-baseweb="calendar"] svg {
+        fill: #FFFFFF !important;
+    }
+
+    div[data-baseweb="popover"] {
+        background: #191919 !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
