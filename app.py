@@ -1039,7 +1039,7 @@ st.markdown(
     <div id="home" class="pd-hero" style="background-image:var(--img-hero);">
         <div class="pd-hero-inner">
             <span class="pd-label">PREMIUM AUTOMOTIVE CARE</span>
-            <h1>DETAILING<br>WITHOUT<br>COMPROMISE.</h1>
+            <h1>DETAILING<br>WITHOUT<br>COMPROMISE</h1>
             <p class="pd-muted">Precision detailing, advanced paint protection and performance
             enhancement for vehicles that deserve more.</p>
             <div class="pd-hero-btns">
